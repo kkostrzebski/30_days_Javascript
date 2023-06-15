@@ -22,11 +22,12 @@ body {
 	align-items: center;
 	justify-content: center;
 	margin: 15px;
+	transition: all .21s ease;
 	min-width: 100px;
 	min-height: 100px;
     background: rgba(0, 0, 0, 0.4);
 	border: 4px black solid;
-	text-shadow: 0 0 0.5rem black;
+	text-shadow: 0 0 5px black;
 	border-radius: 10px;
 }
 kbd {
@@ -35,7 +36,11 @@ kbd {
 	font-size: 48px;
 	color: white;
 }
-
+.playing {
+	transform: scale(1.3);
+	border-color: #ffc500;
+	box-shadow: 0 0 10px #ffc600;
+}
 .sound {
 	position: absolute;
 	bottom: 10%;
